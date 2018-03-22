@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SelectForm = (props) => {
+export const SelectForm = (props) => {
   const {
     values,
     errors,
@@ -47,5 +47,3 @@ SelectForm.defaultProps = {
   text: "",
   value: ""
 }
-
-export default SelectForm;

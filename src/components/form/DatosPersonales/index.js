@@ -1,11 +1,11 @@
 import React, { Component, Fragment } from 'react';
 import { Formik } from 'formik';
 import { object, shape, string } from 'yup';
-import FormDatosPersonales from './FormDatosPersonales';
+import { FormDatosPersonales } from './FormDatosPersonales';
 import { Form } from './../../commons/Form';
 import { DatosPersonalesConsumer, DatosPersonalesProvider } from './DatosPersonalesContext';
 
-export default class DatosPersonalesContainer extends Component {
+export class DatosPersonalesContainer extends Component {
 
   constructor(props) {
     super(props);

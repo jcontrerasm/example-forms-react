@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import CustomTooltip from './../../commons/CustomTooltip';
-import InputForm from './../../commons/InputForm';
-import SelectForm from './../../commons/SelectForm';
+import { CustomTooltip } from './../../commons/CustomTooltip';
+import { InputForm } from './../../commons/InputForm';
+import { SelectForm } from './../../commons/SelectForm';
 import { FormConsumer } from './../../commons/Form';
 
-export default class FormDatosPersonales extends Component {
+export class FormDatosPersonales extends Component {
 
   constructor(props) {
     super(props);

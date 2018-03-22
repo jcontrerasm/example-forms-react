@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import InputForm from './InputForm';
-import CustomTooltip from './CustomTooltip';
+import { InputForm } from './InputForm';
+import { CustomTooltip } from './CustomTooltip';
 import { object, shape, string, boolean, mixed } from 'yup';
 
-export default class AddInputForm extends Component {
+export class AddInputForm extends Component {
 
   constructor(props) {
     super(props);

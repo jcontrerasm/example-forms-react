@@ -1,13 +1,10 @@
 import React, { Component } from 'react';
-import FormMain from './components/form';
-//import Menu from './components/menu';
+import { FormMain } from './components/form';
 
-class App extends Component {
+export class App extends Component {
   render() {
     return (
       <FormMain />
     );
   }
 }
-
-export default App;

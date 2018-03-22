@@ -1,6 +1,6 @@
 import React from 'react';
 
-const InputForm = (props) => {
+export const InputForm = (props) => {
   const {
     values,
     errors,
@@ -31,5 +31,3 @@ InputForm.defaultProps = {
   type: "text",
   value: ""
 }
-
-export default InputForm;

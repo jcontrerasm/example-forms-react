@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Tooltip } from 'react-tippy';
 import 'react-tippy/dist/tippy.css';
 
-export default class CustomTooltip extends Component {
+export class CustomTooltip extends Component {
 
   constructor(props) {
     super(props);
@@ -18,7 +18,7 @@ export default class CustomTooltip extends Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    if(nextProps.errors[nextProps.item] && nextProps.touched[nextProps.item]) {
+    if (nextProps.errors[nextProps.item] && nextProps.touched[nextProps.item]) {
       this.setState({ openTooltip: true });
       this.timeOut = setTimeout(() => this.setState({ openTooltip: false }), 2000);
     }

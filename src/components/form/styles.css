@@ -1,0 +1,10 @@
+
+.error {
+  border: 1px solid red;
+}
+
+fieldset {
+  border: 1px solid transparent;
+  display: inline;
+  margin: 10px 0px
+}
